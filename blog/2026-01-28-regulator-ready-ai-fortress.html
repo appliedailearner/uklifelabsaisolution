@@ -461,33 +461,7 @@
         </div>
     </div>
 
-    <section class="blog-post-hero">
-        <div class="container" style="max-width: 1000px;">
-            <div style="margin-bottom: 1rem;">
-                <a href="../blog.html"
-                    style="color: var(--primary-color); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
-                    <i class="fas fa-arrow-left"></i> Back to Insights
-                </a>
-            </div>
-
-            <h1
-                style="font-family: 'Outfit', sans-serif; font-size: 3rem; line-height: 1.2; margin-bottom: 1.5rem; background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
-                Regulator-Ready AI: The 4-Subscription AI Fortress
-            </h1>
-
-            <div class="blog-post-meta">
-                <div><i class="fas fa-user"></i> Upendra Kumar</div>
-                <div><i class="fas fa-calendar"></i> January 28, 2026</div>
-                <div><i class="fas fa-clock"></i> 10 min read</div>
-            </div>
-
-            <div class="blog-post-tags">
-                <span class="blog-tag"><i class="fas fa-tag"></i> Azure AI</span>
-                <span class="blog-tag"><i class="fas fa-tag"></i> Cybersecurity</span>
-                <span class="blog-tag"><i class="fas fa-tag"></i> Terraform</span>
-            </div>
-        </div>
-    </section>
+    <!-- Hero Section removed from here, moving inside grid -->
 
     <div class="blog-layout-grid">
         <!-- Sidebar Navigation -->
@@ -509,6 +483,33 @@
 
         <!-- Main Content -->
         <article class="blog-content">
+            <!-- Hero Content Moved Here -->
+            <div style="margin-bottom: 3rem;">
+                <div style="margin-bottom: 1rem;">
+                    <a href="../blog.html"
+                        style="color: var(--primary-color); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <i class="fas fa-arrow-left"></i> Back to Insights
+                    </a>
+                </div>
+
+                <h1
+                    style="font-family: 'Outfit', sans-serif; font-size: 3rem; line-height: 1.2; margin-bottom: 1.5rem; background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
+                    Regulator-Ready AI: The 4-Subscription AI Fortress
+                </h1>
+
+                <div class="blog-post-meta">
+                    <div><i class="fas fa-user"></i> Upendra Kumar</div>
+                    <div><i class="fas fa-calendar"></i> January 28, 2026</div>
+                    <div><i class="fas fa-clock"></i> 10 min read</div>
+                </div>
+
+                <div class="blog-post-tags">
+                    <span class="blog-tag"><i class="fas fa-tag"></i> Azure AI</span>
+                    <span class="blog-tag"><i class="fas fa-tag"></i> Cybersecurity</span>
+                    <span class="blog-tag"><i class="fas fa-tag"></i> Terraform</span>
+                </div>
+                <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 2rem 0;">
+            </div>
             <p class="lead" style="font-size: 1.3rem; color: var(--primary-color); font-weight: 600;">
                 The regulator didn't care about the demo. They cared about the data residency.
             </p>
@@ -853,7 +854,8 @@
             <p><strong>The Fix:</strong> Deploy a dedicated <strong>Azure Private DNS Resolver</strong> in the Hub with
                 inbound and outbound endpoints. Configure conditional forwarding rules for all
                 <code>privatelink.*</code>
-                zones. This added £50/month but saved our sanity.</p>
+                zones. This added £50/month but saved our sanity.
+            </p>
             <p><strong>Time Saved:</strong> If you do this from day one, you'll avoid the 3-day DNS debugging marathon
                 we
                 endured.</p>
